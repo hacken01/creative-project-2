@@ -2,14 +2,13 @@ body{
     background-image: url("pkmn.jpg");
     background-size: cover;
 }
-h2{
+h1{
     text-align: center;
 }
 #pokemonMoves{
-    border: 1px solid black;
-    width: 250px;
-    height: 150px;
-    overflow: scroll;
+    width: 450px;
+    height: 250px;
+    overflow: auto;
     margin-right: auto;
 }
 img{
@@ -36,3 +35,12 @@ img{
     background-color: #2a8ebd;
 	text-align:center;
 }
+
+@media only screen and (max-width: 600px) {
+    #pokemonMoves{
+        width: 250px;
+        height: 150px;
+        overflow: auto;
+        margin-right: auto;
+    }
+  }
