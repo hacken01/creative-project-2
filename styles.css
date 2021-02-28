@@ -5,6 +5,13 @@ body{
 h2{
     text-align: center;
 }
+#pokemonMoves{
+    border: 1px solid black;
+    width: 250px;
+    height: 150px;
+    overflow: scroll;
+    margin-right: auto;
+}
 img{
     display: block;
     margin-left: auto;
