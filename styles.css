@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(24, 201, 245);
+}
+.header {
+    text-align:  center;
+    background-color: rgba(6, 240, 84, 0.527);
+}
+
+
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid rgb(4, 0, 255);
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+.footer-repository {
+    background-color: #999999;
+	text-align:center;
+}
