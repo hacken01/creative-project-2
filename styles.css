@@ -1,26 +1,31 @@
 body{
-    background-color: rgb(24, 201, 245);
+    background-image: url("pkmn.jpg");
+    background-size: cover;
+}
+h2{
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 .header {
     text-align:  center;
-    background-color: rgba(6, 240, 84, 0.527);
 }
-
-
-
 .flex-container {
     display: flex;
 }
-
 .flex-child {
     flex: 1;
     border: 2px solid rgb(4, 0, 255);
 }  
-
 .flex-child:first-child {
-    margin-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
 } 
 .footer-repository {
-    background-color: #999999;
+    background-color: #2a8ebd;
 	text-align:center;
 }
